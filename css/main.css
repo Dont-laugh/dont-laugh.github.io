@@ -41,3 +41,7 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+::selection {
+    color: #C1FFC1
+}
