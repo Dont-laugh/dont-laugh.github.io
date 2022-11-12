@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dont-laugh, 如何用Jekyll生成你的博客平台"
+title: "如何用Jekyll生成你的博客平台"
 date: 2022-11-12
 ---
 
