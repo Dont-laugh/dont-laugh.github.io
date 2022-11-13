@@ -1,32 +1,29 @@
-title: 莫笑の博客
-description: 醉卧沙场君莫笑
-show_downloads: true
-name: Dont Laugh
-# permalink: /blog/:year/:month/:day/:title
+# Site Build Settings
 
-baseurl: "/blog" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
-url: "https://dont-laugh.github.io" # change this to the base hostname & protocol for your site
+# Jekyll-paginate-v2 configuration
+#  pagination:
+#   enabled: true
+#   per_page: 5
+#   permalink: '/page/:num/'
+#   title: ':title - page :num of :max'
+#   limit: 0
+#   sort_field: 'date'
+#   sort_reverse: true
 
+# jekyll-paginate configuration
+paginate:            5
 
-google_analytics:
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /blog/:year/:month/:day/:title
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
-# cayman-blog date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-cayman-blog:
-  date_format: "%b %-d, %Y"
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:               '莫笑の博客'
+description:         '始于技术，不止于技术'
+author:              'Dont-Laugh'
 
-theme: # leave it empty
-
-# social
-author: lorepirri
-image: /thumbnail-jumbo.png
-twitter:
-  username: lorepirri
-
-plugins:
-  - jekyll-target-blank
-
-target-blank:
-    rel: nofollow
-
-header_page_refs: ['now', 'about', 'contact']
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml
