@@ -13,8 +13,8 @@ menu:
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'github',     link: 'https://www.github.com/Dont-laugh'}
-- {icon: 'email',   link: '2387471378@qq.com'}
+- {icon: 'github', link: 'https://www.github.com/Dont-laugh'}
+- {icon: 'wordpress', link: 'https://www.zhihu.com/people/wavelet-60'}
 
 # Customize site text
 pagination:

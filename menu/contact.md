@@ -1,7 +1,9 @@
 ---
 layout: page
-title: Contact
+title: 如何联系我
 permalink: /contact
 ---
 
-If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=%40paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new)
+知乎：[莫笑 - 知乎 (zhihu.com)](https://www.zhihu.com/people/wavelet-60)
+
+QQ邮箱：2387471378@qq.com
