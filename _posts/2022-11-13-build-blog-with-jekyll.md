@@ -4,7 +4,7 @@ title: "使用 Jekyll 构建博客平台"
 author: "Dont Laugh"
 categories: technique
 tags: [blog,website]
-image: title/Lagrange.png
+image: title/lagrange.png
 ---
 
 > 目标：从零构建个人博客平台
@@ -19,7 +19,7 @@ GitHub Pages[^1] 是 GitHub 推出的免费自动化构建网站的服务，你�
 
 ⚠️ **注意：该仓库必须是 Public。**
 
-![new-repository](../assets/img/content/2022-11-13.png)
+![new-repository](../assets/img/content/2022-11-13-01.png)
 
 仓库建好后，你可以新建一个 `index.html` 文件，上传后 GitHub 会自动构建网站。第一次构建将花费 5-10 分钟，然后你可以打开网站（https://username.github.io）看看效果。
 
